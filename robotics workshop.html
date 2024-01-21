@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAE Events - Robotics Workshop</title>
+    <link rel="icon" type="image/x-icon" href="icons/saelogo2.ico">
+    <link rel="stylesheet" href="css/event1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .navbar{
+        width: 100%;
+        height: 90px;
+        position: fixed;
+        z-index: 1000;
+        overflow: hidden;
+        background: none;
+}
+</style>
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blog</a>
+          <a href="events.html">Events</a>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+        </div>
+    </div>
+<div class="container">
+    <div class="navbar" id="navbar">
+        <div class="menu" onclick="openNav()">
+              <img src="img/menu.svg" alt="img" width="38px" height="38px"> 
+        </div>
+        <div class="logo" >
+          <img src="img/logo.png" alt="img" width="138px" height="61px">
+        </div>
+        <div class="logo2">
+          <img src="img/logo.png" alt="img" width="138px" height="61px" style="background: none;">
+        </div>
+        <div class="buttons1">
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blogs</a>
+          <a href="events.html">Events</a>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="bgimage">
+        <img src="img/mcquiz.png">
+    </div>
+    
+</div>
+<div class="backgroundc">
+<div class="container4">
+    <div class="heading">
+        <h4>Robotics Workshop</h4>
+        <h6>July 2023</h6>
+    </div>
+
+    <div class="blogtextbody">
+        <p>SAE's commitment to bridging the gap in robotics education in government schools has proven to be a resounding success.
+            <br>
+            <br>
+            
+            <img  style="max-width: 1280px;width: 100%; height: auto; padding: 20px 0 20px 0;" src="events_img/2.png">
+            <br>
+            <br>
+            <img  style="max-width: 1280px;width: 100%; height: auto; padding: 20px 0 20px 0;" src="events_img/6.png">
+            <br>
+            <br>
+            Through the dedication of our student trainers and the enthusiasm of the participating students, we have not only imparted practical knowledge but have also sowed the seeds for a future where technology is harnessed to drive innovation and progress. The impact of SAE's robotics training initiative extended beyond the immediate acquisition of skills. Students developed a keen interest in science, technology, engineering, and mathematics (STEM) fields, paving the way for a future generation of innovators and technologists. The initiative also fostered a sense of community and collaboration among the participating schools, creating a positive ripple effect in the local educational ecosystem.
+            </p>
+    </div>
+
+    <div class="space10" style="padding-top:45px ;"></div>
+    
+    
+    <div class="space10" style="padding-top:45px ;"></div>
+    
+    
+    
+</div>
+</div>
+
+<footer class="footer-distributed">
+
+    <div class="footer-right">
+
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+
+    </div>
+
+    <div class="footer-left">
+        <p style="font-size: 22px; color: white; font-family: 'Poppins'; padding-bottom: 5px;">Address</p>
+        <p>Delhi Technological University, Bawana Road, Shahbad Daulatpur, New Delhi-110042</p>
+        <p  style="padding-bottom: 15px;">email- saedtu@dtu.ac.in</p>
+        <p class="footer-links">
+            <a class="link-1" href="#">Home</a>
+
+            <a href="#">Blog</a>
+
+            <a href="#">Events</a>
+
+            <a href="#">Team</a>
+
+            <a href="#">Contact</a>
+        </p>
+
+        <p style="font-family: 'poppins';">SAE-DTU &copy; 2022</p>
+    </div>
+
+</footer>
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            document.getElementById("navbar").style.background = "rgba(0, 0, 0, 0.09)";
+            document.getElementById("navbar").style.backdropFilter = "blur(6px)";
+            document.getElementById("navbar").style.borderBottom= "1px solid rgba(255, 255, 255, 0.16)";
+
+        } else {
+            document.getElementById("navbar").style.background = "none";
+            document.getElementById("navbar").style.backdropFilter = "none";
+            document.getElementById("navbar").style.borderBottom = "none";
+        }
+    } 
+    
+    function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+    }
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
+</script>
+</body>
+</html>
